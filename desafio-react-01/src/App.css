@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: aliceblue;
+}
+
+main button {
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: aquamarine;
+  border-radius: 8px;
+}
+
+main button:hover {
+  background-color: rgb(0, 255, 213);
+}
+
+#point {
+  width: 5px;
+  height: 5px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
