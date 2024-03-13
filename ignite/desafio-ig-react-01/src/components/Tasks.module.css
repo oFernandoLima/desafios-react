@@ -1,0 +1,56 @@
+.tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.info {
+    width: 46rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.created {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    
+}
+
+.created strong {
+    font-size: 0.875rem;
+    color: var(--blue);
+}
+
+.created span {
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: var(--gray-200);
+    background: var(--gray-400);
+    padding: 0.1rem 0.5rem;
+    border-radius: 10rem;
+}
+
+.done {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+
+.done strong {
+    font-size: 0.875rem;
+    color: var(--purple);
+}
+
+.done span {
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: var(--gray-200);
+    background: var(--gray-400);
+    padding: 0.1rem 0.5rem;
+    border-radius: 10rem;
+}
